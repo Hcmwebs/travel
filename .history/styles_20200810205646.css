@@ -18,13 +18,9 @@ h1 {
   font-weight: 500;
   margin-bottom: 20px;
 }
-h5{
-  font-size: 20px;
-  color:#fff;
-}
 p {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 30px;
 }
@@ -120,11 +116,13 @@ main {
   transition: all 0.5s;
 }
 
-.btn :hover{
+.btn:hover{
   color: #000;
   background-color:rgba(0,0,0,0.4);
 }
-
+.sect2 {
+  background-color: blue;
+}
 .card{
   cursor: pointer;
   width: 200px;
@@ -133,7 +131,6 @@ main {
   border-radius:10px;
   padding: 20px;
   margin: 10px 15px;
-  background-color:rgba(0, 0, 0, 0.3);
   background-position:center;
   background-size:cover;
   transition: all, 0.5s;
@@ -141,7 +138,6 @@ main {
 
 .card1{
   background-image:url(img/christchurch.jpg);
-  
 }
 
 .card2{
@@ -155,7 +151,7 @@ main {
 .card4{
   background-image:url(img/Abeltasman.jpg);
 }
-.card:hover{
+.card :hover{
   transform: translateY(-10px);
 
 }

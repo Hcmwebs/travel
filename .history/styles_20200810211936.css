@@ -13,17 +13,17 @@ body {
   font-weight: 300;
 }
 h1 {
-  color: #fff;
+  color: #000;
   font-size: 60px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 h5{
   font-size: 20px;
-  color:#fff;
+  color:#000;
 }
 p {
-  color: #fff;
+  color: #000;
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
@@ -95,7 +95,7 @@ main {
   place-items: center;
 }
 .sect1 {
-  background-color: rgba(0, 0, 0, 0.35);
+  
   border: none;
   border-radius: 5px;
   display: flex;
@@ -133,7 +133,7 @@ main {
   border-radius:10px;
   padding: 20px;
   margin: 10px 15px;
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(0, 0, 0, 0.35);
   background-position:center;
   background-size:cover;
   transition: all, 0.5s;

@@ -18,13 +18,9 @@ h1 {
   font-weight: 500;
   margin-bottom: 20px;
 }
-h5{
-  font-size: 20px;
-  color:#fff;
-}
 p {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 30px;
 }
@@ -120,44 +116,10 @@ main {
   transition: all 0.5s;
 }
 
-.btn :hover{
+.btn:hover{
   color: #000;
   background-color:rgba(0,0,0,0.4);
 }
-
-.card{
-  cursor: pointer;
-  width: 200px;
-  height: 230px;
-  display: inline-block;
-  border-radius:10px;
-  padding: 20px;
-  margin: 10px 15px;
-  background-color:rgba(0, 0, 0, 0.3);
-  background-position:center;
-  background-size:cover;
-  transition: all, 0.5s;
+.sect2 {
+  background-color: blue;
 }
-
-.card1{
-  background-image:url(img/christchurch.jpg);
-  
-}
-
-.card2{
-  background-image:url(img/Queenstown.jpg);
-}
-
-.card3{
-  background-image:url(img/whaletail.jpg);
-}
-
-.card4{
-  background-image:url(img/Abeltasman.jpg);
-}
-.card:hover{
-  transform: translateY(-10px);
-
-}
-
-
