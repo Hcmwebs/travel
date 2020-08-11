@@ -18,9 +18,9 @@ h1 {
   font-weight: 500;
   margin-bottom: 20px;
 }
-h5{
+h5 {
   font-size: 20px;
-  color:#fff;
+  color: #fff;
 }
 p {
   color: #fff;
@@ -60,18 +60,18 @@ nav {
   flex: 1;
   text-align: right;
 }
-nav ul li {
+nav > ul > li {
   list-style: none;
   display: inline-block;
   margin-left: 6rem;
 }
-nav ul li a {
+nav > ul > li > a {
+  cursor: pointer;
   text-decoration: none;
   display: block;
   font-size: 1.5rem;
   color: #000;
   padding: 5px 3px;
-  cursor: pointer;
   transition: all 0.5s;
 }
 nav ul li a:hover {
@@ -90,12 +90,13 @@ header i {
 
 main {
   height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, min-max(320px, 1fr));
-  place-items: center;
+  display: flex;
+  align-items: center;
 }
 
-
+section {
+  width: 50%;
+}
 .sect1 {
   background-color: rgba(0, 0, 0, 0.35);
   border: none;
@@ -114,7 +115,7 @@ main {
   font-weight: 300;
   margin: 20px auto;
   color: #fff;
-  background-color:transparent;
+  background-color: transparent;
   border: 1px solid #fff;
   border-radius: 20px;
   padding: 10px;
@@ -124,40 +125,39 @@ main {
 
 .btn:hover {
   color: #000;
-  background-color:rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
-
-.card{
+.sect2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 15px;
+}
+.card {
   cursor: pointer;
   width: 200px;
   height: 230px;
-  display: inline-block;
-  border-radius:10px;
-  padding: 20px;
-  margin: 10px 15px;
-  background-position:center;
-  background-size:cover;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
   transition: all, 0.5s;
 }
 
-.card1{
-  background-image:url(img/christchurch.jpg);
-  
+.card1 {
+  background-image: url(img/christchurch.jpg);
 }
 
-.card2{
-  background-image:url(img/Queenstown.jpg);
+.card2 {
+  background-image: url(img/Queenstown.jpg);
 }
 
-.card3{
-  background-image:url(img/whaletail.jpg);
+.card3 {
+  background-image: url(img/whaletail.jpg);
 }
 
-.card4{
-  background-image:url(img/Abeltasman.jpg);
+.card4 {
+  background-image: url(img/Abeltasman.jpg);
 }
-.card :hover{
+.card :hover {
   transform: translateY(-10px);
 }
-
-
